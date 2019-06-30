@@ -17,6 +17,7 @@
 import UIKit
 import WebKit
 
+// Chat VC
 class ChatView: UIViewController, WKUIDelegate {
     
     let TWIST_CHAT_URL: String = "https://twist.moe/chat"
@@ -34,6 +35,7 @@ class ChatView: UIViewController, WKUIDelegate {
         navBar?.tintColor = .white
     }
     
+    // Yes, this is lazy but fuck reimplementing the chat in Swift
     func setupChatWebView ()
     {
         let webConfiguration = WKWebViewConfiguration()

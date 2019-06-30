@@ -15,6 +15,10 @@
 		436CA5EA22B82612007838FE /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436CA5E922B82612007838FE /* PageViewController.swift */; };
 		436CA5EC22B8301F007838FE /* AuthModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436CA5EB22B8301F007838FE /* AuthModalView.swift */; };
 		436CA5EE22B83794007838FE /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436CA5ED22B83794007838FE /* SettingsView.swift */; };
+		438A358222C7B32400D3B8E2 /* Anime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438A358122C7B32400D3B8E2 /* Anime.swift */; };
+		438A358422C83DB500D3B8E2 /* utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438A358322C83DB500D3B8E2 /* utils.swift */; };
+		438A358622C842BB00D3B8E2 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438A358522C842BB00D3B8E2 /* Extensions.swift */; };
+		438A358822C8431800D3B8E2 /* AnimeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438A358722C8431800D3B8E2 /* AnimeCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,10 @@
 		436CA5E922B82612007838FE /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		436CA5EB22B8301F007838FE /* AuthModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthModalView.swift; sourceTree = "<group>"; };
 		436CA5ED22B83794007838FE /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		438A358122C7B32400D3B8E2 /* Anime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anime.swift; sourceTree = "<group>"; };
+		438A358322C83DB500D3B8E2 /* utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = utils.swift; sourceTree = "<group>"; };
+		438A358522C842BB00D3B8E2 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		438A358722C8431800D3B8E2 /* AnimeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,8 @@
 		436CA5D422B803D7007838FE /* Twister */ = {
 			isa = PBXGroup;
 			children = (
+				438A358522C842BB00D3B8E2 /* Extensions.swift */,
+				438A357F22C7B2F600D3B8E2 /* API */,
 				436CA5D522B803D7007838FE /* AppDelegate.swift */,
 				436CA5D722B803D7007838FE /* ViewController.swift */,
 				436CA5DC22B803D9007838FE /* Assets.xcassets */,
@@ -69,8 +79,26 @@
 				436CA5E922B82612007838FE /* PageViewController.swift */,
 				436CA5EB22B8301F007838FE /* AuthModalView.swift */,
 				436CA5ED22B83794007838FE /* SettingsView.swift */,
+				438A358322C83DB500D3B8E2 /* utils.swift */,
+				438A358722C8431800D3B8E2 /* AnimeCell.swift */,
 			);
 			path = Twister;
+			sourceTree = "<group>";
+		};
+		438A357F22C7B2F600D3B8E2 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				438A358022C7B31900D3B8E2 /* mock */,
+				438A358122C7B32400D3B8E2 /* Anime.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		438A358022C7B31900D3B8E2 /* mock */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = mock;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,11 +172,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				436CA5D822B803D7007838FE /* ViewController.swift in Sources */,
+				438A358622C842BB00D3B8E2 /* Extensions.swift in Sources */,
 				436CA5E822B823C8007838FE /* ChatView.swift in Sources */,
 				436CA5D622B803D7007838FE /* AppDelegate.swift in Sources */,
+				438A358222C7B32400D3B8E2 /* Anime.swift in Sources */,
 				436CA5EE22B83794007838FE /* SettingsView.swift in Sources */,
 				436CA5EA22B82612007838FE /* PageViewController.swift in Sources */,
 				436CA5EC22B8301F007838FE /* AuthModalView.swift in Sources */,
+				438A358822C8431800D3B8E2 /* AnimeCell.swift in Sources */,
+				438A358422C83DB500D3B8E2 /* utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

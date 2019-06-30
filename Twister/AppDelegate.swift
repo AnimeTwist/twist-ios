@@ -17,6 +17,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
+        // Storyboards suck and Apple nods in agreement.
+        // But since everybody needs iOS 13 for the new cool thing, this'll do for now.
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.makeKeyAndVisible()
         window?.rootViewController = TRootViewController(transitionStyle: .scroll, navigationOrientation: .horizontal, options: nil)
